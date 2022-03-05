@@ -1,0 +1,58 @@
+{
+    "images":
+    [
+       [
+           [],
+           [],
+           [],
+           []
+       ]
+    ],
+
+    "info":
+    {
+        "rickroll":
+        {
+            "name":"Rickroll",
+            "info":"V březnu 2007 byl na stránkách Rockstar Games vydán první trailer k velmi očekávanému Grand Theft Auto IV. Sledovanost byla tak vysoká, že to narušilo stránky Rockstaru. Několik uživatelů pomohlo zveřejnit zrcadla videa na různé stránky, ale jeden uživatel na 4chan odkazoval na video „Never Gonna Give You Up“, které tvrdilo, že je to upoutávka, čímž nalákal četné čtenáře na návnadu a přepínač.",
+            "memes":
+            {
+                "image":"",
+                "yt":"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            }
+        },
+
+        "longcat":
+        {
+            "name":"Longcat",
+            "info":"Původní fotografie Longcata, jehož jméno je Shiroi (白い – „bílý“ v japonštině) nebo Nobiko, se poprvé objevila na kanálu Futaba (2chan) někdy mezi lety 2004 a 2005. Na 2chanu byla označována jako „nobiiru“, což znamená „natáhnout se“.",
+            "memes":
+            {
+                "image":"longcat_1",
+                "yt":""
+            }
+        },
+
+        "dramatic_chipmunk":
+        {
+            "name":"Dramatic chipmunk",
+            "info":"Klip se stal známý díky zveřejnění na Youtube a CollegeHumor 19. června 2007.[1] Dřívější a identická verze, s názvem Dramatic Look, byla na YouTube nahrána 6. června 2007.",
+            "memes":
+            {
+                "image":"",
+                "yt":"https://www.youtube.com/watch?v=y8Kyi0WNg40"
+            }
+        },
+
+        "":
+        {
+            "name":"",
+            "info":"",
+            "memes":
+            {
+                "image":"",
+                "yt":""
+            }
+        },
+    }
+}
