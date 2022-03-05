@@ -1,3 +1,4 @@
+
 canvas {
     position: absolute;
     top: 0;
@@ -14,11 +15,6 @@ canvas {
 #canvas {
     z-index:1;
 }
-<<<<<<< HEAD
-
-#obrazek:hover{
-    transform: scaleX(10);
-=======
 ::-webkit-scrollbar {
 	height: 20px;
 }
@@ -37,10 +33,6 @@ canvas {
 	background: #0cacb8; 
 }
 #obrazek:hover {
-    height: 150px;
-    width: 150px;
     transition: 0.1s;
-    transform: translateX(15px);
-    transform: translateY(-50px);
->>>>>>> 921f7e6c09223506d87f12940533ab6ecbfb1763
+    transform: scale(2);
 }

@@ -2,23 +2,51 @@ var canvas = document.getElementById("canvas"),
 context = canvas.getContext("2d");
 
 
-
 let imgHeight = 80; //tady mas velikost obrayzku
 
 let xOffset = 250; //jak daleko mezi sebou to bude
 let startXoffset = 100; //jak daleko to bude z leve strany
 
-const imgArray = [
-["circle.png", "circle.png"],
-["circle.png", "circle.png","circle.png"],
-["circle.png", "circle.png"],["circle.png", "circle.png", "circle.png"],["circle.png", "circle.png", "circle.png"]];
+var data;
 
-function load()
+var imgArray = [];
+
+async function load()
+{
+  await loadJSON(function(response) {
+      data = JSON.parse(response);
+      Draw();
+   });
+}
+
+function Draw()
 {
   canvas.height = document.documentElement.clientHeight;
   canvas.width = "5000";
+
+  CreateImageArray()
   SpawnCircle();
   DrawLines();
+}
+
+function CreateImageArray()
+{
+  var year = 0;
+  var temp = -1;
+
+  var imagedata = data.images[0];
+  console.log(imagedata);
+
+  for(let i = 0; i < imagedata.length ; i++)
+  {
+    if(imagedata[i][2] > year)
+    {
+      year = imagedata[i][2];
+      imgArray.push([]);
+      temp++;
+    }
+    imgArray[temp].push(imagedata[i][0]);
+  }
 }
 
 function SpawnCircle()
@@ -31,7 +59,7 @@ function SpawnCircle()
       var div = document.createElement('div');
       var container = document.getElementById('continer');
       img.id = "obrazek"; //tady si nastavis id obrazku
-      img.src = imgArray[x][y];
+      img.src = "icons/" + imgArray[x][y];
       let proficalculationofimghight = canvas.offsetHeight / (imgArray[x].length + 1);
       proficalculationofimghight = proficalculationofimghight *(y+1);
       div.style.position = "absolute";
@@ -83,4 +111,17 @@ function DrawLines()
     }
   }
 };
+
+function loadJSON(callback) {   
+
+  var xobj = new XMLHttpRequest();
+  xobj.overrideMimeType("application/json");
+  xobj.open('GET', 'obrazky.json', true); 
+  xobj.onreadystatechange = function () {
+  if (xobj.readyState == 4 && xobj.status == "200") {
+    callback(xobj.responseText);
+  }
+  };
+  xobj.send(null);  
+}
 

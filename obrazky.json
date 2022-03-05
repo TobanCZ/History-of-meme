@@ -2,23 +2,56 @@
     "images":
     [
        [
-           ["rickroll.png","rickroll", 2007, 0],
-           ["longcat.png","longcat",2004, 1],
-           ["dramatic_chipmunk.png","dramatic_chipmunk",2007, 1],
-           ["gaijin_4koms.png","gaijin_4koms",2003, 0],
-           ["shoop_da_whoop.png","shoop_da_whoop",2008, 2],
-           ["xzibit_yo_dawg.png","xzibit_yo_dawg",2007, 0],
-           ["keyboard_cat.png","keyboard_cat",1984, 0],
-           ["hitler_downfall.png","hitler_downfall",2004, 0],
-           ["has_anyone_really_been_far.png","has_anyone_really_been_far",2009, 0],
-           ["sad_keanu.png","sad_keanu",2010, 1],
-           ["","",,],
-           ["","",,],
-           ["","",,],
-           ["","",,],
-           ["","",,],
-           ["","",,],
-           ["","",,],
+           ["keyboard_cat.png","keyboard_cat",1984],
+           ["gaijin_4koms.png","gaijin_4koms",2003],
+           ["hitler_downfall.png","hitler_downfall",2004],
+           ["longcat.png","longcat",2004],
+           ["rickroll.png","rickroll", 2007],
+           ["dramatic_chipmunk.png","dramatic_chipmunk",2007],
+           ["xzibit_yo_dawg.png","xzibit_yo_dawg",2007],
+           ["shoop_da_whoop.png","shoop_da_whoop",2008],
+           ["trollface.png","trollface",2008],
+           ["has_anyone_really_been_far.png","has_anyone_really_been_far",2009],
+           ["slender_man.png","slender_man",2009],
+           ["trololo_guy.png","trololo_guy",2009],
+           ["mlg.png","mlg",2009],
+           ["dolan.png","dolan",2010],
+           ["ricardo.png","ricardo",2010],
+           ["sad_keanu.png","sad_keanu",2010],
+           ["doge.png","doge",2010],
+           ["forever_alone.png","forever_alone",2010],
+           ["uganda_knuckles.png","uganda_knuckles",2010],
+           ["nyan_cat.png","nyan_cat",2011],
+           ["no_nut_november.png","no_nut_november",2011],
+           ["gangnam_style.png","gangnam_style",2012],
+           ["bee_movie.png","bee_movie",2012],
+           ["are_u_sure_about_that.png","are_u_sure_about_that",2012],
+           ["confused_travotla.png","confused_travotla",2012],
+           ["dank_memes.png","dank_memes",2013],
+           ["9_+_10_=_21.png","9_+_10_=_21",2013],
+           ["tuxedo_winnie.png","tuxedo_winnie",2013],
+           ["evil_kermit.png","evil_kermit",2014],
+           ["press_f.png","press_f",2014],
+           ["fuck_her_right_in_the_pussy.png","fuck_her_right_in_the_pussy",2014],
+           ["stormtrooper.png","stormtrooper",2015],
+           ["why_the_fuck_you_lyin.png","why_the_fuck_you_lyin",2015],
+           ["shooting_stars.png","shooting_stars",2015],
+           ["we_are_number_one.png","we_are_number_one",2016],
+           ["harambe.png","harambe",2016],
+           ["dat_boi.png","dat_boi",2016],
+           ["arthurs_fist.png","arthurs_fist",2016],
+           ["he_prottec_but_he_also_atacc.png","he_prottec_but_he_also_atacc",2016],
+           ["logan_paul_forrest.png","logan_paul_forrest",2017],
+           ["ben_swolo.png","ben_swolo",2017],
+           ["big_chungu.png","big_chungu",2017],
+           ["markiplier_e.png","markiplier_e", 2018],
+           ["ligma.png","ligma",2018],
+           ["moth_lamp.png","moth_lamp",2018],
+           ["npc_wojak.png","npc_wojak",2018],
+           ["surprised_pikachu.png","surprised_pikachu",2018],
+           ["that_is_how_mafia_works.png","that_is_how_mafia_works",2018],
+           ["crab_rave.png","crab_rave",2018],
+           ["pepega.png","pepega",2018]
        ]
     ],
 
@@ -129,97 +162,460 @@
             "info":"Paparazzi fotografii zasmušilého Reevese, jak jí sendvič, pořídil někdy v květnu 2010 fotograf Splash News Ron Asadorian. Nejstarší známé vlákno photoshopu „Sad Keanu“ lze nalézt v archivu podobnému 4chanu nazvanému Green-ovale.net z desky z 23. května 2010. Další vlákno by se objevilo na desce 4chan imageboard z 1. června 2010 3. června 2010 uživatel Redditu rockon4life zveřejnil obrázek s frází „Opravdu mě baví hraní...Protože když hraju, už to nejsem já“ ve vláknu s názvem „Keanu. Více smutku v komentářích“. Vlákno se rychle dostalo na titulní stránku Redditu a shromáždilo více než 281 000 zobrazení stránek.",
             "memes":
             {
-                "image":["sad_keanu_1"],
+                "image":["sad_keanu_1.jpg"],
                 "yt":""
             }
         },
 
-        "":
+        "forever_alone":
         {
-            "name":"",
-            "info":"",
+            "name":"Forever alone",
+            "info":"Forever Alone je považován za jednu z prvních hlavních vedlejších postav komiksu Rage, které byly vytvořeny po původním Rage Guy, který se poprvé objevil na 4chanu v roce 2009. Podle různých zdrojů byl původní komiks nahrán do vlákna s názvem „April Fools “ od uživatele FunnyJunk Azuul dne 28. května 2010. Zatímco původní umělec nebyl potvrzen, Dictionary.com uvádí Dominica Vannera jako ilustrátora postavy.",
             "memes":
             {
-                "image":[""],
+                "image":["forever_alone_1.jpg"],
                 "yt":""
             }
         },
 
-        "":
+        "trollface":
         {
-            "name":"",
-            "info":"",
+            "name":"Trollface",
+            "info":"Trollface byl původně nakreslen Carlosem Ramirezem, umělcem z Oaklandu, známým svou klikou DeviantART Whynne, jako součást webového komiksu MS Paint o nesmyslné povaze trollingu na desce 4chan. Komiks byl nahrán na deviantART 19. září 2008.",
             "memes":
             {
-                "image":[""],
+                "image":["trollface_1.jpg","trollface_2.jpg"],
                 "yt":""
             }
         },
 
-        "":
+        "nyan_cat":
         {
-            "name":"",
-            "info":"",
+            "name":"Nyan Cat",
+            "info":"Dne 5. dubna 2011 zveřejnil YouTuber saraj00n video s názvem „Nyan Cat“ s použitím animace Pop-Tart Cat od komiksového umělce prguitarmana se známou japonskou vocaloidní písní Nyanyanyanyanyanyanya od japonského umělce Daniwell-P, která se v pozadí opakovala, ačkoli byla původně složena pro Hatsune Miku, aby zpívala, Verze použitá ve videu byla z obalu nazpívaného Utauloidem Momo Momone. Video získalo během prvních dvou týdnů více než jeden milion zhlédnutí.",
             "memes":
             {
                 "image":[""],
+                "yt":"https://www.youtube.com/watch?v=QH2-TGUlwu4"
+            }
+        },
+
+        "dolan":
+        {
+            "name":"Dolan",
+            "info":"Nejstarší archivovaná instance v anglickém jazyce pochází z You Laugh, You Lose na 4chan zveřejněném 12. srpna 2010. Subreddit dolan byl vytvořen o dva dny později, 14. srpna 2010.",
+            "memes":
+            {
+                "image":["dolan_1.png","dolan_2.png"],
                 "yt":""
             }
         },
 
-        "":
+        "trololo_guy":
         {
-            "name":"",
-            "info":"",
+            "name":"Trololo guy",
+            "info":"26. listopadu 2009 nahrál YouTuber RealPapaPit videoklip s názvem „Jsem velmi rád, protože jsem konečně zpátky doma.“ Interpret zpívající ve videu byl identifikován jako Eduard Anatolyevich Khil, zpěvák ze sovětské éry, kdysi oslavovaný jako „Ctěný umělec SSSR“ v roce 1968 a „Lidový umělec SSSR“ v roce 1974. Píseň je příkladem skupiny Vokaliz tradice, styl zpěvu podobný pantomimě a americkému scatovému zpěvu 20. let. Video bylo později přejmenováno na „Původní nahrání Mr. Trololo“ a během následujících osmi let získalo přes 26 milionů zhlédnutí a 48 500 komentářů. ",
             "memes":
             {
                 "image":[""],
+                "yt":"https://www.youtube.com/watch?v=sTSA_sWGM44"
+            }
+        },
+
+        "gangnam_style":
+        {
+            "name":"Gangnam style",
+            "info":"Gangnam Style, vydaný 15. července 2012, je pojmenován po Gangnam, okrese Soulu v Jižní Koreji. Gangnam znamená „jižně od řeky“ – v tomto případě jižně od řeky Han. Gangnam je také jedním z nejbohatších a nejpůvabnějších míst v Soulu.",
+            "memes":
+            {
+                "image":["gangnam_style_1.png"],
                 "yt":""
             }
         },
 
-        "":
+        "slender_man":
         {
-            "name":"",
-            "info":"",
+            "name":"Slender man",
+            "info":"Meme Slender Man začalo v červnu 2009, kdy soutěž na komediálním webovém fóru Something Awful požádala o nápady na moderní mýtus, kterým by lidi vyděsil. ",
             "memes":
             {
-                "image":[""],
+                "image":["slender_man_1.jpg"],
                 "yt":""
             }
         },
 
-        "":
+        "doge":
         {
-            "name":"",
-            "info":"",
+            "name":"Doge",
+            "info":"Záměrná chybná formulace slova pes jako doge pro komediální hodnotu sahá až do roku 2005, kdy byla použita v epizodě webového seriálu Homestar Runner. Příběh meme dóže začíná v únoru 2010, kdy Atsuko Sato, japonská učitelka v mateřské škole, zveřejnila na svém blogu fotky svého psa Kabosu, Shiba Inu.",
             "memes":
             {
-                "image":[""],
+                "image":["doge_1.jpg","doge_2.jpg","doge_3.jpg"],
                 "yt":""
             }
         },
 
-        "":
+        "bee_movie":
         {
-            "name":"",
-            "info":"",
+            "name":"Bee movie",
+            "info":"4. prosince 2012 Tumblr explodoval s absurdními memy Bee Movie. Memy „Bee Movie“ jsou svým způsobem „dezorientované, měnící mysl a téměř psychedelické“. Navzdory tomu, že neexistuje žádný originální obsah, je k výrobě těchto mashupů stále potřeba určitá dávka kreativity.",
             "memes":
             {
-                "image":[""],
+                "image":["bee_movie.jpg"],
                 "yt":""
             }
         },
 
-        "":
+        "fuck_her_right_in_the_pussy":
         {
-            "name":"",
+            "name":"F*** her right in the p****",
             "info":"",
             "memes":
             {
+                "image":["fuck_her_right_in_the_pussy_1"],
+                "yt":"https://www.youtube.com/watch?v=hj2MXNu-G4A"
+            }
+        },
+
+        "9_+_10_=_21":
+        {
+            "name":"9 + 10 = 21",
+            "info":"22. června 2013 uživatel Vine @DREHUPEMSU @WESTROSECRAN zveřejnil původní video. Během osmi let získal příspěvek více než 30 milionů smyček, 707 000 lajků a 605 000 revinech. Ve Vine mluví muž s chlapcem a tvrdí, že je hloupý. Poté, co chlapec odpoví, že ne, pak se ho muž zeptá: 'Kolik je 9+10?' na což chlapec odpoví '21.' Muž pak své tvrzení znovu potvrdí.",
+            "memes":
+            {
                 "image":[""],
+                "yt":"https://www.youtube.com/watch?v=BzVXbeASRiQ"
+            }
+        },
+
+        "pepe":
+        {
+            "name":"Pepe",
+            "info":"Pepe vznikl v roce 2005 v komiksu Matta Furieho s názvem Boy's Club. Stal se internetovým memem, když jeho popularita v roce 2008 neustále rostla napříč Myspace, Gaia Online a 4chan. Do roku 2015 se stal jedním z nejpopulárnějších memů používaných na 4chan a Tumblr.",
+            "memes":
+            {
+                "image":["pepe_1.gif","pepe_2.jpg","pepe_3.jpg"],
                 "yt":""
             }
         },
+
+        "why_the_fuck_you_lyin":
+        {
+            "name":"Why The fuck you lyin",
+            "info":"29. srpna 2015 Viner Nicholas Fraser nahrál krátký klip s názvem „That one person that's sways lying on what they own“, ve kterém sám poslouchá, jak jiná osoba lže. Klip pak přestřihl na Frasera, jak tančí na dvorku a přitom zpívá 'Why the kurva ty lyin'?' na melodii singlu „Too Close“ z roku 1997 od americké R&B kapely Next.",
+            "memes":
+            {
+                "image":[""],
+                "yt":"https://www.youtube.com/watch?v=qlOTNtUvhe8"
+            }
+        },
+
+        "we_are_number_one":
+        {
+            "name":"We are Number one",
+            "info":"Dva roky poté, co byla epizoda LazyTown odvysílána v roce 2014 a zveřejněna na kanálu LazyTown YouTube v roce 2015, se píseň „We Are Number One“ stala internetovým memem teprve v roce 2016, protože interpret Robbieho Rottena Stefán Karl Stefánsson oznámil, že mu byla diagnostikována rakovina žlučovodů.",
+            "memes":
+            {
+                "image":[""],
+                "yt":"https://www.youtube.com/watch?v=PfYnvDL0Qcw"
+            }
+        },
+
+        "are_u_sure_about_that":
+        {
+            "name":"Are u sure about that?",
+            "info":"John Cena byl inspirován sérií telemarketingových žertovných hovorů odvysílaných v pořadu Z Morning Zoo v roce 2012, ve kterých moderátor opakovaně volá stále rozzlobenější ženě, aby se ji pokusil přesvědčit, aby si koupila WWE „Superslam“.",
+            "memes":
+            {
+                "image":[""],
+                "yt":"https://www.youtube.com/watch?v=PhY9D7TDbiw"
+            }
+        },
+
+        "confused_travotla":
+        {
+            "name":"Confused Travotla",
+            "info":"6. listopadu uživatel Imgur ILikeToWonkaMyWilly nahrál Confused Travolta GIF do uličky s hračkami v supermarketu. Během deseti dnů příspěvek získal přes 2,8 milionu zobrazení, 12 600 bodů a 370 komentářů.",
+            "memes":
+            {
+                "image":["confused_travotla.gif"],
+                "yt":"https://www.youtube.com/watch?v=yS55oeuy-X0"
+            }
+        },
+
+        "stormtrooper":
+        {
+            "name":"TR-8R Stormtrooper",
+            "info":"Ve filmových hvězdných válkách stormtrooper konfrontuje hlavního hrdinu Finna, nazve ho zrádcem a utká s Finnem zbraněmi na blízko, odolnými proti světelným mečům, zvanými obušek Z6. Voják zdánlivě porazí Finna, než ho o několik okamžiků později zastřelí Han Solo. V oficiální prequel knize Before The Awakening je odhaleno, že Stormtrooper se jmenoval FN-2199, přezdívaný „Nines“. Riot Stormtrooper trénoval s Finnem a vysvětloval, proč si ho vybral a napadl tak agresivně.",
+            "memes":
+            {
+                "image":["stormtrooper_1.jpg"],
+                "yt":"https://www.youtube.com/watch?v=9UB9byzqnT8"
+            }
+        },
+
+        "harambe":
+        {
+            "name":"Harambe",
+            "info":"28. května 2016 se do výběhu gorily nížinné Harambe v ZOO Cincinnati doplazil 4letý chlapec. Gorila pak dítě uchopila a začala ho tahat po ohradě, než zaměstnanec zoo v Cincinnati zastřelil Harambeho puškou. Toho dne nahrál YouTuber maxi záběry incidentu na YouTube, kde nasbíralo více než 12,6 milionů zhlédnutí a 41 000 komentářů. příštích 48 hodin. Video bylo následně odstraněno, ale rychle se objevilo několik nových nahraných verzí.",
+            "memes":
+            {
+                "image":["harambe_1.jpg"],
+                "yt":""
+            }
+        },
+
+        "dat_boi":
+        {
+            "name":"Dat boi",
+            "info":"Pochází od animační společnosti Animation Factory, která vyrábí nejrůznější podivné GIFy, a měla skvělý nápad posadit žábu na jednokolku. Ryan Hagen, který pracoval v Animation Factory, popsal žábu jako „bizarní odpad“.",
+            "memes":
+            {
+                "image":["dat_boi_1.jpg"],
+                "yt":""
+            }
+        },
+
+        "arthurs_fist":
+        {
+            "name":"Arthurs fist",
+            "info":"Dne 27. července 2016 zveřejnil uživatel Twitteru @AlmostJT snímek Arthurovy pěsti zachycený na obrazovce, přičemž tento obrázek popsal jako „diskutabilní“, protože zobrazuje „tolik emocí v jedné pěsti“. Původní tweet byl od té doby odstraněn.",
+            "memes":
+            {
+                "image":["arthurs_fist_1.jpg"],
+                "yt":""
+            }
+        },
+
+        "dank_memes":
+        {
+            "name":"Dank Memes",
+            "info":"Fráze dank meme se poprvé objevila v roce 2013 na nástěnkách v rámci 4chan a Reddit, které byly věnovány vytváření parodií existujících memů a zesměšňování memové kultury.",
+            "memes":
+            {
+                "image":["dank_memes_1.jpg"],
+                "yt":"https://www.youtube.com/watch?v=29EFVFk---I"
+            }
+        },
+
+        "evil_kermit":
+        {
+            "name":"Evil Kermit",
+            "info":"Meme, hovorově známý jako Evil Kermit, je snímek obrazovky z filmu Muppets Most Wanted z roku 2014, ve kterém se žába Kermit setkává se svým zlým dvojčetem Constantinem, který nosí kápi ve stylu Sithského lorda.",
+            "memes":
+            {
+                "image":["evil_kermit_1.jpg"],
+                "yt":""
+            }
+        },
+
+        "mlg":
+        {
+            "name":"MLG",
+            "info":"První MLG montáže přišly kolem roku 2009, kdy YTP dosahovalo svého vrcholu. Jde o sérii remixových videí parodujících podžánr „videoherní montáž“ na YouTube, který se vyznačuje rychlými úpravami a smyčkovými záběry, stejně jako intenzivním používáním hlasité dubstepové hudby a pískavých zvuků na pozadí.",
+            "memes":
+            {
+                "image":["mlg_1.jpg"],
+                "yt":"https://www.youtube.com/watch?v=1ExuxDEXWgQ"
+            }
+        },
+
+        "shooting_stars":
+        {
+            "name":"Shooting stars",
+            "info":"Tento meme získal popularitu v roce 2017, ale první stopa tohoto memu sahá až k animaci s „Shooting Stars“ hrající na pozadí, kterou v prosinci 2015 vytvořil youtuber jménem „Glaceygirl“.",
+            "memes":
+            {
+                "image":[""],
+                "yt":"https://www.youtube.com/watch?v=cbWjyt7QELU"
+            }
+        },
+
+        "he_prottec_but_he_also_atacc":
+        {
+            "name":"He prottec But he also atacc",
+            "info":"Dne 8. listopadu 2016 zveřejnil Instagram @fijichecks fotografie nahého muže držícího světelný meč spolu s titulkem 'he protec / but he also attac'.",
+            "memes":
+            {
+                "image":["he_prottec_but_he_also_atacc_1.png","he_prottec_but_he_also_atacc_2.jpg"],
+                "yt":""
+            }
+        },
+
+        "logan_paul_forrest":
+        {
+            "name":"Logan paul forrest",
+            "info":"Dne 31. prosince 2017 Paul nahrál na YouTube video, ve kterém navštívil Aokigahara, les na hoře Fuji v Japonsku, hovorově známý jako „Les sebevražd“ pro neobvykle vysoký počet sebevražd, které se tam odehrávají. Video bylo od té doby smazáno, ale do té doby zaznamenalo více než 6,2 milionu zhlédnutí. Na videu Paul najde oběšené tělo. Paul ve videu dále řekl, že sebevražda a deprese jsou vážné problémy.",
+            "memes":
+            {
+                "image":[""],
+                "yt":"https://www.youtube.com/watch?v=StdrqHnEXVY"
+            }
+        },
+
+        "uganda_knuckles":
+        {
+            "name":"Uganda Knuckles",
+            "info":"Uganďan Knuckles je částečně inspirován filmem „Who Killed Captain Alex?“, nízkorozpočtovou ugandskou akční/komedií vydanou v roce 2010. Hláška Uganďana Knucklesa „do you know the way“ mluvená s africkým přízvukem byla inspirována podobnou větou ve filmu.",
+            "memes":
+            {
+                "image":[""],
+                "yt":"https://www.youtube.com/watch?v=tJp_3-VZZjI"
+            }
+        },
+
+        "ben_swolo":
+        {
+            "name":"Ben Swolo",
+            "info":"24. prosince Redditor TheRed_Reaper zveřejnil fotoshop Kim Čong-una Watching Television s obrázkem Kylo Rena bez košile na obrazovce, jak Kim Čong-un chválí pěstí. Během 48 hodin příspěvek získal více než 1 900 bodů (98 % hlasovalo) na dankmemes.",
+            "memes":
+            {
+                "image":["ben_swolo_1.jpg"],
+                "yt":""
+            }
+        },
+
+        "markiplier_e":
+        {
+            "name":"Markiplier E",
+            "info":"Obrázek Markipliera na tváři lorda Farquaada zveřejnil 25. května 2015 uživatel Twitteru a YouTuber Cyndago. Nejstarší známý hluboce smažený, „E“ příspěvek obrázku přišel 15. února 2018 na blogu Tumblr photo-frier, kde získal 728 poznámek.",
+            "memes":
+            {
+                "image":["markiplier_e_1.jpg"],
+                "yt":"https://www.youtube.com/watch?v=X0YLt4dcx8w"
+            }
+        },
+
+        "ligma":
+        {
+            "name":"Ligma",
+            "info":"28. května 2018 uživatel Instagramu Galevik nahrál video ukazující konverzaci na Twitteru, ve které řekl Davidu Hoggovi „měli byste bojkotovat ligmu“ . Během dvou měsíců získal příspěvek přes 307 100 zobrazení.",
+            "memes":
+            {
+                "image":["ligma_1.jpg"],
+                "yt":""
+            }
+        },
+
+        "moth_lamp":
+        {
+            "name":"Moth Lamp",
+            "info":"První moth mem se objevil v červenci, kdy uživatel Redditu zveřejnil děsivě vypadající detailní záběr můry sedícího za jeho oknem. Obrázek získal 33,5 000 hlasů a vyvolal improvizovanou soutěž o titulky. Jeden uživatel zkusil: 'Hej, kamaráde, nemáš nějaké LAMPY?!' Et voilà – zrodil se první můří mem.",
+            "memes":
+            {
+                "image":["moth_lamp_1.jpg"],
+                "yt":"https://www.youtube.com/watch?v=2bfuMg8s-Io"
+            }
+        },
+
+        "npc_wojak":
+        {
+            "name":"NPC Wojak",
+            "info":"5. září 2018 bylo na 4chan předloženo několik memů, které diskutovaly o lidech, kteří neměli „vnitřní hlas“. V sekcích komentářů mnozí popisovali ty, kteří nemají vnitřní monolog, jako „NPC“. 7. září se v memech o NPC začala objevovat šedá variace Wojaka.",
+            "memes":
+            {
+                "image":["npc_wojak_1.jpg"],
+                "yt":""
+            }
+        },
+
+        "no_nut_november":
+        {
+            "name":"No Nut November",
+            "info":"Dne 3. listopadu 2011 uživatel bicboi6969696969 odeslal příspěvek pro „No Nut November“ a definoval jej jako výzvu, ve které „jedinec nesmí během měsíce listopadu masturbovat“. V listopadu 2017 se v různých kruhových komunitách a komunitách meme online začaly šířit odkazy na výzvu „No Nut November“.",
+            "memes":
+            {
+                "image":["no_nut_november_1.jpg"],
+                "yt":""
+            }
+        },
+
+        "press_f":
+        {
+            "name":"Press F",
+            "info":"„Press F to pay respect“ je internetový mem, který pochází z Call of Duty: Advanced Warfare, střílečky z roku 2014 z franšízy Call of Duty společnosti Activision. ... Od té doby jej používají internetoví komentátoři k vyjádření sympatií nebo uznání za nešťastné události.",
+            "memes":
+            {
+                "image":["press_f_1.jpg"],
+                "yt":""
+            }
+        },
+
+        "big_chungus":
+        {
+            "name":"Big Chungus",
+            "info":"Dne 27. května 2017 zveřejnil anonymní uživatel 4chan obrázek obézního Bugs Bunnyho na nástěnku 4chanu . Další výskyt obrázku na 4chan lze sledovat 19. července 2017, přičemž další příspěvky, které jej obsahují, se objeví na a dalších nástěnkách později v tomto roce.",
+            "memes":
+            {
+                "image":["big_chungu_1.png"],
+                "yt":""
+            }
+        },
+
+        "surprised_pikachu":
+        {
+            "name":"Surprised pikachu",
+            "info":"Epizoda z anime Pokémon, ze které obrázek pochází, je sezóna 1, epizoda 10, „Bulbasaur a skrytá vesnice“. První příspěvek, který použil obrázek jako reakci, se objevil na Tumblr 26. září 2018. Uživatel popokko zveřejnil scénář s obrázkem a získal více než 223 000 komentářů.",
+            "memes":
+            {
+                "image":["surprised_pikachu_1.png"],
+                "yt":""
+            }
+        },
+
+        "that_is_how_mafia_works":
+        {
+            "name":"That is How mafia works",
+            "info":"Dne 30. prosince 2018 nahrál australský YouTuber Slazo video s názvem „Hilariously Bad Instagram Ads“, ve kterém zesměšňuje různé mobilní reklamy pro Mafia CIty. Jedna z reklam, které ve videu vystupoval na předním místě, byla série klipů lidí, kteří ve hře páchali zločiny, přičemž každý klip končil tím, že se na obrazovce objevil muž v obleku a ukázal na klip s titulkem „That's how mafia works“.",
+            "memes":
+            {
+                "image":["that_is_how_mafia_works_1.jpg"],
+                "yt":""
+            }
+        },
+
+        "ricardo":
+        {
+            "name":"Ricardo",
+            "info":"Taneční video Ricarda Milose bylo původně zveřejněno na gay porno stránce s názvem „Jock Butt“. Miloš ve videu eroticky tančí, má na hlavě červený šátek a tanga s americkou vlajkou. 15. října 2010 bylo video nahráno do NND jako součást série Gachimuchi a od té doby zaznamenalo více než 500 000 zhlédnutí. Milosův charismatický a svůdný tanec upoutal pozornost fanoušků Gachimuchi a brzy se stal opakující se postavou Gachimuchi. Kvůli podobnosti s brazilským fotbalistou Ronaldinhem mu uživatelé NND dali přezdívku Ro nau jii nyo.",
+            "memes":
+            {
+                "image":[""],
+                "yt":"https://www.youtube.com/watch?v=IxWo7yG-W-E"
+            }
+        },
+
+        "crab_rave":
+        {
+            "name":"Crab rave",
+            "info":"1. dubna 2018 vydalo vydavatelství elektronické hudby Monstercat píseň Crab Rave od irského producenta Eoina O'Broina, známou také jako Noisestorm, s doprovodným hudebním videem nahraným na jejich kanál Instinct Youtube jako součást jejich aprílové kampaně. Hudební video zachycuje obsazení krabů, kteří tančí a řádí podle písně na vzdáleném ostrově v oceánu. K 11. srpnu 2018 nasbíralo video téměř 1,2 milionu zhlédnutí a je aktuálně nejsledovanějším videem na kanálu.",
+            "memes":
+            {
+                "image":[""],
+                "yt":"https://www.youtube.com/watch?v=LDU_Txk06tM"
+            }
+        },
+
+        "tuxedo_winnie":
+        {
+            "name":"Tuxedo Winnie",
+            "info":"Původní verze memu se poprvé objevila na 4chanu již v roce 2013 a obsahuje také upravenou verzi Pú z Disneyho kresleného filmu Medvídek Pú a Tygr z roku 1974. V té době se již neupravený obrázek Pú usínajícího v křesle používal jako reakční mem k vyjádření nudy nebo apatie.",
+            "memes":
+            {
+                "image":["tuxedo_winnie_1.jpg","tuxedo_winnie_2.jpg"],
+                "yt":""
+            }
+        },
+
+        "pepega":
+        {
+            "name":"Pepega",
+            "info":"Dne 8. dubna 2018 v konverzaci na Discordu zveřejnil uživatel adew první známé použití Pepega emote . Zdá se, že název „pepega“ je odvozen od Adewova pokusu o zveřejnění memu, ale vynechání druhé dvojtečky. Pepega byl přidán do FrankerFacez 8. dubna 2018.",
+            "memes":
+            {
+                "image":["pepega_1.png","pepega_2.png"],
+                "yt":""
+            }
+        }
     }
 }
