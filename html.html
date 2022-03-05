@@ -5,12 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Memes</title>
 </head>
-<body>
+<body onload="load()">
+
     <div id="continer"></div>
-    <canvas id="viewport" height="1000" width="10000"></canvas>
+    <canvas id="canvas" width="5000" height="1000"></canvas>
+    <div id="particles-js"></div>
     
+   
+
+    <script src="particles.js"></script>
+    <script>
+        particlesJS.load('particles-js','particles.json', function(){console.log('callback - particles.js config loaded')});
+    </script>
     <script src="javascript.js"></script>
+
 </body>
 </html>

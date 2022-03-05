@@ -1,17 +1,24 @@
-var canvas = document.getElementById("viewport"),
+var canvas = document.getElementById("canvas"),
 context = canvas.getContext("2d");
 
-let imgHeight = 75;
 
-let xOffset = 500;
+
+let imgHeight = 100;
+
+let xOffset = 250;
 
 const imgArray = [
 ["circle.png", "circle.png"],
 ["circle.png", "circle.png","circle.png"],
 ["circle.png", "circle.png"],["circle.png", "circle.png", "circle.png"],["circle.png", "circle.png", "circle.png"]];
 
-SpawnCircle();
-DrawLines();
+function load()
+{
+  canvas.height = document.documentElement.clientHeight;
+  canvas.width = "5000";
+  SpawnCircle();
+  DrawLines();
+}
 
 function SpawnCircle()
 {
@@ -26,6 +33,7 @@ function SpawnCircle()
       img.style.position = "absolute";
       img.style.left = x * xOffset + 50 + "px";
       img.style.top = proficalculationofimghight + "px";;
+      img.style.zIndex = 2;
       img.height = imgHeight;
       document.getElementById('continer').appendChild(img);
     }
@@ -42,8 +50,10 @@ function DrawLines()
       line_y = line_y *(y+1) + imgHeight /2;
       line_x = x * xOffset + 50 + imgHeight/2;
 
-      context.strokeStyle = "#00FFFF";
-      context.lineWidth = 3;
+      
+
+      context.strokeStyle = "#005780";
+      context.lineWidth = 1;
 
       if(imgArray[x+1] != null)
       {
@@ -52,13 +62,19 @@ function DrawLines()
           let line2_y = canvas.offsetHeight / (imgArray[x+1].length + 1);
           line2_y = line2_y *(z+1) + imgHeight /2;
           line2_x = (x+1) * xOffset + 50 + imgHeight/2;
-            
+          
+
+
           context.beginPath();
+          
           context.moveTo(line_x, line_y);
           context.lineTo(line2_x, line2_y);
+          
+
           context.stroke();
         }
       } 
     }
   }
 };
+
