@@ -28,16 +28,20 @@ function SpawnCircle()
     for(let y = 0; y < imgArray[x].length; y++)
     {
       var img = document.createElement('img');
-      img.id = "obrazek"; //tady si nasravis id obrazku
+      var div = document.createElement('div');
+      var container = document.getElementById('continer');
+      img.id = "obrazek"; //tady si nastavis id obrazku
       img.src = imgArray[x][y];
       let proficalculationofimghight = canvas.offsetHeight / (imgArray[x].length + 1);
       proficalculationofimghight = proficalculationofimghight *(y+1);
-      img.style.position = "absolute";
-      img.style.left = x * xOffset + startXoffset + "px";
-      img.style.top = proficalculationofimghight + "px";;
-      img.style.zIndex = 2;
+      div.style.position = "absolute";
+      div.style.left = x * xOffset + startXoffset + "px";
+      div.style.top = proficalculationofimghight + "px";;
+      div.style.zIndex = 2;
       img.height = imgHeight;
-      document.getElementById('continer').appendChild(img);
+      div.appendChild(img);
+      container.style.position = "relative";
+      container.appendChild(div);
     }
   }
 }

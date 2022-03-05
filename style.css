@@ -17,3 +17,7 @@ canvas
 {
     z-index:1;
 }
+
+#obrazek:hover{
+    transform: scaleX(10);
+}

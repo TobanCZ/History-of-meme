@@ -2,10 +2,23 @@
     "images":
     [
        [
-           [],
-           [],
-           [],
-           []
+           ["rickroll.png","rickroll", 2007, 0],
+           ["longcat.png","longcat",2004, 1],
+           ["dramatic_chipmunk.png","dramatic_chipmunk",2007, 1],
+           ["gaijin_4koms.png","gaijin_4koms",2003, 0],
+           ["shoop_da_whoop.png","shoop_da_whoop",2008, 2],
+           ["xzibit_yo_dawg.png","xzibit_yo_dawg",2007, 0],
+           ["keyboard_cat.png","keyboard_cat",1984, 0],
+           ["hitler_downfall.png","hitler_downfall",2004, 0],
+           ["has_anyone_really_been_far.png","has_anyone_really_been_far",2009, 0],
+           ["sad_keanu.png","sad_keanu",2010, 1],
+           ["","",,],
+           ["","",,],
+           ["","",,],
+           ["","",,],
+           ["","",,],
+           ["","",,],
+           ["","",,],
        ]
     ],
 
@@ -17,7 +30,7 @@
             "info":"V březnu 2007 byl na stránkách Rockstar Games vydán první trailer k velmi očekávanému Grand Theft Auto IV. Sledovanost byla tak vysoká, že to narušilo stránky Rockstaru. Několik uživatelů pomohlo zveřejnit zrcadla videa na různé stránky, ale jeden uživatel na 4chan odkazoval na video „Never Gonna Give You Up“, které tvrdilo, že je to upoutávka, čímž nalákal četné čtenáře na návnadu a přepínač.",
             "memes":
             {
-                "image":"",
+                "image":[""],
                 "yt":"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
             }
         },
@@ -28,7 +41,7 @@
             "info":"Původní fotografie Longcata, jehož jméno je Shiroi (白い – „bílý“ v japonštině) nebo Nobiko, se poprvé objevila na kanálu Futaba (2chan) někdy mezi lety 2004 a 2005. Na 2chanu byla označována jako „nobiiru“, což znamená „natáhnout se“.",
             "memes":
             {
-                "image":"longcat_1.jpg",
+                "image":["longcat_1.jpg"],
                 "yt":""
             }
         },
@@ -39,8 +52,85 @@
             "info":"Klip se stal známý díky zveřejnění na Youtube a CollegeHumor 19. června 2007.[1] Dřívější a identická verze, s názvem Dramatic Look, byla na YouTube nahrána 6. června 2007.",
             "memes":
             {
-                "image":"dramatic_chipmunk_1.jpg",
+                "image":["dramatic_chipmunk_1.jpg"],
                 "yt":"https://www.youtube.com/watch?v=y8Kyi0WNg40"
+            }
+        },
+
+        "gaijin_4koms":
+        {
+            "name":"Gaijin 4Koms",
+            "info":"Fotografie čtyř reportérů IGN (Matt Casamassina, Craig Harris, Chadd Chamers, Peer Schneider), kteří vypadají spíše 'nezaujatě', byla původně pořízena během konference Nintenda na E3 2003 Expo, kde CEO Nintenda představil 'Pacman vs.' pro GameCube. ",
+            "memes":
+            {
+                "image":["gaijin_4koms_1.jpg"],
+                "yt":""
+            }
+        },
+
+        "shoop_da_whoop":
+        {
+            "name":"Shoop da Whoop",
+            "info":"Zatímco původ „Shoop da Whoop“ není znám, webová stránka Encyclopedia Dramatica tvrdí, že pochází z flashové animace nazvané Syntax Error #2 zveřejněné na nástěnce 4chan, která obsahovala obrázek postavy Dragonball Z „Cell“ v černém obličeji s titulkem. : ' I'M FIRIN' MAH LAZER!!'. Někdy se před útokem také používá fráze „I'M A' CHARGIN' MAH LAZER“.",
+            "memes":
+            {
+                "image":["shooo_da_whoop_1.gif"],
+                "yt":"https://www.youtube.com/watch?v=0We_JvHzvsE"
+            }
+        },
+
+        "xzibit_yo_dawg":
+        {
+            "name":"Xzibit Yo Dawg",
+            "info":"Původní obrázkové makro se poprvé objevilo na 4chan na začátku roku 2007 a koncem roku 2008 zažilo oživení na stránkách Reddit, Tumblr a sociálních sítích. Série Yo Dawg má jedinečnou charakteristiku v tom, že je rekurzivní. Tato vícevrstvá struktura ve vzorci Yo Dawg připomíná „podivné smyčky“ popsané v Gödel, Escher, Bach Douglase Hofstadtera.",
+            "memes":
+            {
+                "image":["xzibit_yo_dawg_1.jpg","xzibit_yo_dawg_2"],
+                "yt":""
+            }
+        },
+
+        "keyboard_cat":
+        {
+            "name":"Keyboard cat",
+            "info":"Keyboard Cat je internetový mem založený na videu. Jeho původní podobou bylo video natočené v roce 1984 Charliem Schmidtem, na němž jeho kočka Fatso zdánlivě hraje na hudební klávesy.",
+            "memes":
+            {
+                "image":[""],
+                "yt":"https://www.youtube.com/watch?v=J---aiyznGQ"
+            }
+        },
+
+        "hitler_downfall":
+        {
+            "name":"Hitler Downfall",
+            "info":"Videomemy Downfall jsou online parodie na scénu v bunkru z německého filmu z roku 2004, kde se zuřivý Hitler dozvídá, že ho jeho generálové zklamali a válka je ztracena. Hitler to ztrácí. Své vojáky nazývá „zbabělci a zrádci“.",
+            "memes":
+            {
+                "image":[""],
+                "yt":"https://www.youtube.com/watch?v=jI1-iB442Yo"
+            }
+        },
+
+        "has_anyone_really_been_far":
+        {
+            "name":"Has anyone really been far",
+            "info":"Otázka se poprvé objevila ve vláknu na nástěnce na 4chanu o připravované hře pro Wii The Conduit 12. února 2009. Původní příspěvek obsahoval odkaz na video YouTube někoho, kdo hraje beta verzi hry, spolu se seznamem pozoruhodných funkce. Anonymní uživatel zareagoval na příspěvek dotazem: „Has anyone really been far even as decided to use even go want to do look more like?“. Několik uživatelů se pokusilo otázku rozluštit a spekulovalo se, že se ptala, zda společnost videoher někdy zašla tak daleko, aby hra vypadala realisticky.",
+            "memes":
+            {
+                "image":["has_anyone_really_been_far_1.jpg","has_anyone_really_been_far_2.jpg"],
+                "yt":""
+            }
+        },
+
+        "sad_keanu":
+        {
+            "name":"Sad Keanu",
+            "info":"Paparazzi fotografii zasmušilého Reevese, jak jí sendvič, pořídil někdy v květnu 2010 fotograf Splash News Ron Asadorian. Nejstarší známé vlákno photoshopu „Sad Keanu“ lze nalézt v archivu podobnému 4chanu nazvanému Green-ovale.net z desky z 23. května 2010. Další vlákno by se objevilo na desce 4chan imageboard z 1. června 2010 3. června 2010 uživatel Redditu rockon4life zveřejnil obrázek s frází „Opravdu mě baví hraní...Protože když hraju, už to nejsem já“ ve vláknu s názvem „Keanu. Více smutku v komentářích“. Vlákno se rychle dostalo na titulní stránku Redditu a shromáždilo více než 281 000 zobrazení stránek.",
+            "memes":
+            {
+                "image":["sad_keanu_1"],
+                "yt":""
             }
         },
 
@@ -50,7 +140,84 @@
             "info":"",
             "memes":
             {
-                "image":"",
+                "image":[""],
+                "yt":""
+            }
+        },
+
+        "":
+        {
+            "name":"",
+            "info":"",
+            "memes":
+            {
+                "image":[""],
+                "yt":""
+            }
+        },
+
+        "":
+        {
+            "name":"",
+            "info":"",
+            "memes":
+            {
+                "image":[""],
+                "yt":""
+            }
+        },
+
+        "":
+        {
+            "name":"",
+            "info":"",
+            "memes":
+            {
+                "image":[""],
+                "yt":""
+            }
+        },
+
+        "":
+        {
+            "name":"",
+            "info":"",
+            "memes":
+            {
+                "image":[""],
+                "yt":""
+            }
+        },
+
+        "":
+        {
+            "name":"",
+            "info":"",
+            "memes":
+            {
+                "image":[""],
+                "yt":""
+            }
+        },
+
+        "":
+        {
+            "name":"",
+            "info":"",
+            "memes":
+            {
+                "image":[""],
+                "yt":""
+            }
+        },
+
+        "":
+        {
+            "name":"",
+            "info":"",
+            "memes":
+            {
+                "image":[""],
                 "yt":""
             }
         },
