@@ -3,9 +3,9 @@ context = canvas.getContext("2d");
 
 
 
-let imgHeight = 100;
+let imgHeight = 80; //tady mas velikost obrayzku
 
-let xOffset = 250;
+let xOffset = 250; 
 
 const imgArray = [
 ["circle.png", "circle.png"],
@@ -27,6 +27,7 @@ function SpawnCircle()
     for(let y = 0; y < imgArray[x].length; y++)
     {
       var img = document.createElement('img');
+      img.id = "obrazek"; //tady si nasravis id obrazku
       img.src = imgArray[x][y];
       let proficalculationofimghight = canvas.offsetHeight / (imgArray[x].length + 1);
       proficalculationofimghight = proficalculationofimghight *(y+1);
@@ -52,8 +53,8 @@ function DrawLines()
 
       
 
-      context.strokeStyle = "#005780";
-      context.lineWidth = 1;
+      context.strokeStyle = "#005780"; //tady mas barvicku cary
+      context.lineWidth = 1; //tady mas tloustku cary
 
       if(imgArray[x+1] != null)
       {
