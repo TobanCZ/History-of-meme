@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Memes</title>
+</head>
+<body onload="load()">
+
+   
+    <div id="continer"></div>
+    <canvas id="canvas" width="5000" height="1000"></canvas>
+    <div id="particles-js"></div>
+    <canvas id="timeline" width="100" height="1000"></canvas>
+    
+
+    <script src="particles.js"></script>
+    <script>
+        particlesJS.load('particles-js','particles.json', function(){console.log('callback - particles.js config loaded')});
+    </script>
+    <script src="javascript.js"></script>
+    
+        <div class="mainscroll">
+            <div id="info">
+                <!--<svg width="400" height="110" id="background">
+                    <rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)"></rect>  -->  <!-- modrej obdelnik (puvodne jsem to chtel jako pozadi) 
+                </svg>-->
+                <div id="blok">
+                    <button class="button" type="button" onclick="hide()">&#10006;</b></button> <!-- Krizek na zavreni informaci -->
+                    <h1 id="title"></h1> <!-- Nazev -->
+                    <p id="text"></p> <!-- Text -->
+                                <!-- <img class=" images"></img> == meme-->
+                                    <!-- <iframe class="yt"></iframe> == yt video-->
+                </div>
+            </div>
+        </div>
+</body>
+</html>
