@@ -220,5 +220,18 @@ function hide()
 {
   var d = document.getElementById("info");
   d.style.display = "none";
+
+  var yt = document.getElementsByClassName("yt");
+  var temp = yt.length;
+  
+ 
+  if(yt!= null)
+  {
+      for(let x = 0; x < temp; x++)
+    {
+      console.log(x)
+      blok.removeChild(yt[0]);
+    }
+  }
 }
 
