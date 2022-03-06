@@ -55,18 +55,12 @@ canvas {
   height: 100px;
 }
 
-#center
-{
-    
-}
-
 #timeline_div {
   display: flex;
   flex-direction: row;
   position: fixed;
-  gap: 52px;
+  gap: 48px;
   margin-top: 3.5%;
-  left: 1%;
 }
 #timeline_div h2 {
   padding-bottom: 50;
@@ -168,4 +162,3 @@ img:hover {
   opacity: 80%;
   display: none;
 }
-
