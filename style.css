@@ -47,6 +47,11 @@ canvas {
     position: fixed;
 }
 
+#timeline
+{
+    position: fixed;
+}
+
 h1
 {
     color: aliceblue;
