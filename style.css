@@ -1,10 +1,8 @@
-
 canvas {
     position: absolute;
     top: 0;
     left: 0;
 }
-
 .particles-js-canvas-el {
     z-index:0;
     background-color: rgb(0, 0, 0);  
@@ -44,11 +42,6 @@ canvas {
     display: none;
 }
 
-#background
-{
-    
-}
-
 h1
 {
     color: aliceblue;
@@ -62,4 +55,51 @@ rect{
     fill: rebeccapurple;
     top: 50%;
     left: 50%;
+}
+.button {
+    background-color: #0cacb8;
+    border: #11bcc9 1px solid;
+    padding: 5px 10px 5px 10px;
+    border-radius: 2px;
+    font-size: 20px;
+    float: right;
+}
+.button:hover {
+    background-color: #10d9e7;
+    transition: 0.5s;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0cacb8, 0 0 50px #10d9e7, 0 0 60px #11bcc9, 0 0 70px #11bcc9, 0 0 80px #10d9e7;
+    }
+    to {
+      text-shadow: 0 0 30px #fff, 0 0 40px #10d9e7, 0 0 50px #10d9e7, 0 0 60px #10d9e7, 0 0 70px #10d9e7, 0 0 80px #10d9e7, 0 0 90px #10d9e7;
+    }
+  }
+  h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+    padding-left: 150px;
+}
+  #text {
+    font-family: 'Lato', sans-serif;
+
+  }
+.blok {
+    border: 1px solid red;
+    width: 800px;
+    padding: 40px;
+    margin-left: 50%;
+    background-color: #121212;
+    border-radius: 10px;
+    margin-top: 8%;
+}
+img {
+    margin-left: 50%;
+}
+iframe {
+    margin-left: 50%;
 }
