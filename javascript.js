@@ -261,7 +261,7 @@ function scroll(event)
 {
   if(event != null && showinfo == false)
   {
-    window.scrollBy(event.deltaY,0);
+    window.scrollBy(event.deltaY*0.5,0);
   }
 }
 
