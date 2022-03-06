@@ -8,11 +8,13 @@ var timeline = timeline_canvas.getContext("2d");
 let imgHeight = 75; //tady mas velikost obrayzku
 
 let xOffset = 250; //jak daleko mezi sebou to bude
-let startXoffset = 125; //jak daleko to bude z leve strany
+let startXoffset = 130; //jak daleko to bude z leve strany
 
-let timelineHeight = 50; //tady nastavis mezeru timeliy od zhora a zdola
+let timelineXoffset = 50; //tady nastavis mezeru timeliy z leva a z prava
 
 var data;
+
+let showinfo = false;
 
 var imgArray = [];
 var yearArray = [];
@@ -27,15 +29,20 @@ async function load()
 
 function Draw()
 {
-  canvas.height = document.documentElement.clientHeight;
-  canvas.width = "4000";
-
-  document.getElementById("timeline").height = document.documentElement.clientHeight;
-
   CreateImageArray();
+  SetCanvas();
   SpawnCircle();
   DrawLines();
-  //DrawTimeline();
+  DrawTimeline();
+}
+
+function SetCanvas()
+{
+  let profivypocetwidth = imgArray.length*xOffset + startXoffset;
+  canvas.height = document.documentElement.clientHeight;
+  canvas.width = profivypocetwidth;
+  var particles = document.getElementsByClassName("particles-js-canvas-el");
+  particles[0].style.width = profivypocetwidth + "px";
 }
 
 function CreateImageArray()
@@ -125,20 +132,19 @@ function DrawLines()
   }
 };
 
-//function DrawTimeline();
-//{
-  //timeline.strokeStyle = "#ffffff"; //tady mas barvicku timeliny
- // timeline.lineWidth = 1; //tady mas tloustku timeliny
+function DrawTimeline()
+{
+  timeline.strokeStyle = "#ffffff"; //tady mas barvicku timeliny
+  timeline.lineWidth = 1; //tady mas tloustku timeliny
 
-  //timeline.beginPath();
+  timeline.beginPath();
           
- // timeline.moveTo(timeline_canvas.width/2, 0 + timelineHeight);
-  //timeline.lineTo(timeline_canvas.width/2, timeline_canvas.height - timelineHeight);
-          
+  timeline.moveTo(timelineXoffset, timeline_canvas.height/2);
+  timeline.lineTo( timeline_canvas.width - timelineXoffset, timeline_canvas.height/2);
 
- // timeline.stroke();
+  timeline.stroke();
 
-//}
+}
 
 function loadJSON(callback) {   
 
@@ -156,6 +162,7 @@ function loadJSON(callback) {
 function onMemeClick(meme)
 {
   meme = meme.id;
+  showinfo = true;
 
   var div = document.getElementById("info");
   var blok = document.getElementById("blok");
@@ -224,6 +231,7 @@ function hide()
   var yt = document.getElementsByClassName("yt");
   var temp = yt.length;
   
+  showinfo = false;
  
   if(yt!= null)
   {
@@ -237,14 +245,10 @@ function hide()
 
 function scroll(event)
 {
-  if(event == null)
+  if(event != null && showinfo == false)
   {
-    return;
+    window.scrollBy(event.deltaY,0);
   }
-
-  data = event.deltaY;
-   console.log(data);
-  window.scrollBy(data,0);
 }
 
   document.addEventListener('wheel',scroll());

@@ -52,6 +52,10 @@ canvas {
 
 #timeline {
     position: fixed;
+    width: 1500px;
+    height: 100px;
+    margin: auto;
+    z-index:4;
 }
 
 h1, p
