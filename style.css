@@ -53,15 +53,10 @@ canvas {
     position: fixed;
 }
 
-h1
+h1, p
 {
     color: aliceblue;
 }
-
-p{
-    color: aliceblue;  
-}
-
 .button {
     background-color: #0cacb8;
     border: #11bcc9 1px solid;
@@ -109,10 +104,10 @@ h1:hover {
     margin-left: auto;
     background-color: #121212;
     border-radius: 10px;
-    margin-top: 5%;
+    margin-top: 3%;
     position: relative;
     overflow-y: scroll;
-    max-height: 50%;
+    max-height: 525px;
 }
 #blok img {
     border:#10d9e7 2px solid;

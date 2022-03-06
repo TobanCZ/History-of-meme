@@ -99,7 +99,7 @@ function DrawLines()
 
       
 
-      context.strokeStyle = "#005780"; //tady mas barvicku cary
+      context.strokeStyle = "#0cacb8"; //tady mas barvicku cary
       context.lineWidth = 1.5; //tady mas tloustku cary
 
       if(imgArray[x+1] != null)
