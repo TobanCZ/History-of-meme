@@ -2,7 +2,7 @@ var canvas = document.getElementById("canvas"),
 context = canvas.getContext("2d");
 
 
-let imgHeight = 80; //tady mas velikost obrayzku
+let imgHeight = 70; //tady mas velikost obrayzku
 
 let xOffset = 250; //jak daleko mezi sebou to bude
 let startXoffset = 100; //jak daleko to bude z leve strany
@@ -22,7 +22,7 @@ async function load()
 function Draw()
 {
   canvas.height = document.documentElement.clientHeight;
-  canvas.width = "5000";
+  canvas.width = "4000";
 
   CreateImageArray()
   SpawnCircle();
@@ -35,7 +35,6 @@ function CreateImageArray()
   var temp = -1;
 
   var imagedata = data.images[0];
-  console.log(imagedata);
 
   for(let i = 0; i < imagedata.length ; i++)
   {
@@ -67,6 +66,10 @@ function SpawnCircle()
       div.style.top = proficalculationofimghight + "px";;
       div.style.zIndex = 2;
       img.height = imgHeight;
+      img.id =  imgArray[x][y].replace(".png","");
+      var nameofmeme = imgArray[x][y].replace(".png","");
+      var idkuz = "onMemeClick(" + nameofmeme + ")"
+      img.setAttribute("onclick",idkuz)
       div.appendChild(img);
       container.style.position = "relative";
       container.appendChild(div);
@@ -123,5 +126,73 @@ function loadJSON(callback) {
   }
   };
   xobj.send(null);  
+}
+
+function onMemeClick(meme)
+{
+  meme = meme.id;
+
+  var div = document.getElementById("info");
+  var title = data.info[meme].name;
+  var h1 = document.getElementById("title");
+  var p = document.getElementById("text");
+  var text = data.info[meme].info;
+
+  var images = document.getElementsByClassName("images");
+  var temp = images.length;
+  
+ 
+  if(images!= null)
+  {
+      for(let x = 0; x < temp; x++)
+    {
+      console.log(x)
+      div.removeChild(images[0]);
+    }
+  }
+  
+  if(data.info[meme].memes.image[0] != "")
+  {
+    for(let i = 0; i < data.info[meme].memes.image.length; i++)
+    {
+    var memes = document.createElement("img")
+    memes.src = "memes/" + data.info[meme].memes.image[i];
+    memes.className = "images";
+    div.appendChild(memes);
+    }
+  }
+
+  var yt = document.getElementsByClassName("yt");
+  var temp = yt.length;
+  
+ 
+  if(yt!= null)
+  {
+      for(let x = 0; x < temp; x++)
+    {
+      console.log(x)
+      div.removeChild(yt[0]);
+    }
+  }
+
+  if(data.info[meme].memes.yt != "")
+  {
+    var iframe = document.createElement("iframe")
+    iframe.src = data.info[meme].memes.yt.replace("watch?v=","embed/");
+    iframe.className = "yt";
+    div.appendChild(iframe);
+  }
+  
+
+  h1.innerHTML = title;
+  p.innerHTML = text;
+
+  div.style.display = "inline";
+}
+
+function hide()
+{
+  var d = document.getElementById("info");
+  d.style.display = "none";
 }
 

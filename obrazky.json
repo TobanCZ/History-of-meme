@@ -28,7 +28,7 @@
            ["are_u_sure_about_that.png","are_u_sure_about_that",2012],
            ["confused_travotla.png","confused_travotla",2012],
            ["dank_memes.png","dank_memes",2013],
-           ["9_+_10_=_21.png","9_+_10_=_21",2013],
+           ["nine_ten_twenty_one.png","nine_ten_twenty_one",2013],
            ["tuxedo_winnie.png","tuxedo_winnie",2013],
            ["evil_kermit.png","evil_kermit",2014],
            ["press_f.png","press_f",2014],
@@ -107,7 +107,7 @@
             "info":"Zatímco původ „Shoop da Whoop“ není znám, webová stránka Encyclopedia Dramatica tvrdí, že pochází z flashové animace nazvané Syntax Error #2 zveřejněné na nástěnce 4chan, která obsahovala obrázek postavy Dragonball Z „Cell“ v černém obličeji s titulkem. : ' I'M FIRIN' MAH LAZER!!'. Někdy se před útokem také používá fráze „I'M A' CHARGIN' MAH LAZER“.",
             "memes":
             {
-                "image":["shooo_da_whoop_1.gif"],
+                "image":["shoop_da_whoop_1.gif"],
                 "yt":"https://www.youtube.com/watch?v=0We_JvHzvsE"
             }
         },
@@ -118,7 +118,7 @@
             "info":"Původní obrázkové makro se poprvé objevilo na 4chan na začátku roku 2007 a koncem roku 2008 zažilo oživení na stránkách Reddit, Tumblr a sociálních sítích. Série Yo Dawg má jedinečnou charakteristiku v tom, že je rekurzivní. Tato vícevrstvá struktura ve vzorci Yo Dawg připomíná „podivné smyčky“ popsané v Gödel, Escher, Bach Douglase Hofstadtera.",
             "memes":
             {
-                "image":["xzibit_yo_dawg_1.jpg","xzibit_yo_dawg_2"],
+                "image":["xzibit_yo_dawg_1.jpg","xzibit_yo_dawg_2.jpg"],
                 "yt":""
             }
         },
@@ -269,15 +269,15 @@
         "fuck_her_right_in_the_pussy":
         {
             "name":"F*** her right in the p****",
-            "info":"",
+            "info":"Dne 4. ledna 2014 nahrál filmař John Cain ze Cincinnati video s názvem „Reportér vyhozen za poznámky o pohřešované ženě v LIVE TV“, které ukazuje reportéra místní zpravodajské stanice přidružené ke stanici FOX, jak dělá na kameru nevhodné poznámky, včetně řádku 'I'll fuck her right in the pussy.'",
             "memes":
             {
-                "image":["fuck_her_right_in_the_pussy_1"],
+                "image":["fuck_her_right_in_the_pussy_1.jpg"],
                 "yt":"https://www.youtube.com/watch?v=hj2MXNu-G4A"
             }
         },
 
-        "9_+_10_=_21":
+        "nine_ten_twenty_one":
         {
             "name":"9 + 10 = 21",
             "info":"22. června 2013 uživatel Vine @DREHUPEMSU @WESTROSECRAN zveřejnil původní video. Během osmi let získal příspěvek více než 30 milionů smyček, 707 000 lajků a 605 000 revinech. Ve Vine mluví muž s chlapcem a tvrdí, že je hloupý. Poté, co chlapec odpoví, že ne, pak se ho muž zeptá: 'Kolik je 9+10?' na což chlapec odpoví '21.' Muž pak své tvrzení znovu potvrdí.",
