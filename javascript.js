@@ -158,6 +158,7 @@ function onMemeClick(meme)
   meme = meme.id;
 
   var div = document.getElementById("info");
+  var blok = document.getElementById("blok");
   var title = data.info[meme].name;
   var h1 = document.getElementById("title");
   var p = document.getElementById("text");
@@ -172,7 +173,7 @@ function onMemeClick(meme)
       for(let x = 0; x < temp; x++)
     {
       console.log(x)
-      div.removeChild(images[0]);
+      blok.removeChild(images[0]);
     }
   }
   
@@ -183,7 +184,7 @@ function onMemeClick(meme)
     var memes = document.createElement("img")
     memes.src = "memes/" + data.info[meme].memes.image[i];
     memes.className = "images";
-    div.appendChild(memes);
+    blok.appendChild(memes);
     }
   }
 
