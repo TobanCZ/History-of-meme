@@ -50,10 +50,14 @@ canvas {
 }
 
 #timeline {
-  position: absolute;
-  width: 1450px;
+  position: fixed;
+  width: 100%;
   height: 100px;
-  margin-left: 2%;
+}
+
+#center
+{
+    
 }
 
 #timeline_div {
@@ -61,8 +65,8 @@ canvas {
   flex-direction: row;
   position: fixed;
   gap: 52px;
-  margin-left: 1%;
   margin-top: 3.5%;
+  left: 1%;
 }
 #timeline_div h2 {
   padding-bottom: 50;
@@ -164,8 +168,4 @@ img:hover {
   opacity: 80%;
   display: none;
 }
-.kunda {
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid red;
-}
+

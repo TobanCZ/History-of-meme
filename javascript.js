@@ -10,6 +10,7 @@ let imgHeight = 75; //tady mas velikost obrayzku
 let xOffset = 250; //jak daleko mezi sebou to bude
 let startXoffset = 130; //jak daleko to bude z leve strany
 
+let timelineXoffset = 10;
 
 var data;
 
@@ -136,8 +137,8 @@ function DrawTimeline()
   timeline.strokeStyle = "#0cacb8"; //tady mas barvicku timeliny
   timeline.lineWidth = 4; //tady mas tloustku timeliny
   timeline.beginPath();       
-  timeline.moveTo(0, timeline_canvas.height/2);
-  timeline.lineTo( timeline_canvas.width, timeline_canvas.height/2);
+  timeline.moveTo(timelineXoffset, timeline_canvas.height/2);
+  timeline.lineTo( timeline_canvas.width - timelineXoffset, timeline_canvas.height/2);
   timeline.stroke();
 
   var timeline_div = document.getElementById("timeline_div");
