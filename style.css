@@ -98,18 +98,21 @@ rect{
     font-family: 'Lato', sans-serif;
 
   }
-.blok {
+#blok {
     border: 1px solid red;
-    width: 800px;
+    width: 750px;
     padding: 40px;
-    margin-left: 50%;
+    margin-left: 55%;
     background-color: #121212;
     border-radius: 10px;
     margin-top: 8%;
+    position: relative;
 }
-img {
-    margin-left: 50%;
+#blok img {
+    margin-left: 20%;
+    width: 400px;
 }
-iframe {
-    margin-left: 50%;
+#blok iframe {
+    margin-left: 20%;
+    width: 400px;
 }
