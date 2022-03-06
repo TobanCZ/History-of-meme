@@ -1,15 +1,21 @@
 var canvas = document.getElementById("canvas"),
 context = canvas.getContext("2d");
 
+var timeline_canvas = document.getElementById("timeline");
+var timeline = timeline_canvas.getContext("2d");
+
 
 let imgHeight = 70; //tady mas velikost obrayzku
 
 let xOffset = 250; //jak daleko mezi sebou to bude
 let startXoffset = 100; //jak daleko to bude z leve strany
 
+let timelineHeight = 50; //tady nastavis mezeru timeliy od zhora a zdola
+
 var data;
 
 var imgArray = [];
+var yearArray = [];
 
 async function load()
 {
@@ -24,9 +30,12 @@ function Draw()
   canvas.height = document.documentElement.clientHeight;
   canvas.width = "4000";
 
-  CreateImageArray()
+  document.getElementById("timeline").height = document.documentElement.clientHeight;
+
+  CreateImageArray();
   SpawnCircle();
   DrawLines();
+  //DrawTimeline();
 }
 
 function CreateImageArray()
@@ -41,6 +50,7 @@ function CreateImageArray()
     if(imagedata[i][2] > year)
     {
       year = imagedata[i][2];
+      yearArray.push(year);
       imgArray.push([]);
       temp++;
     }
@@ -114,6 +124,21 @@ function DrawLines()
     }
   }
 };
+
+//function DrawTimeline();
+//{
+  //timeline.strokeStyle = "#ffffff"; //tady mas barvicku timeliny
+ // timeline.lineWidth = 1; //tady mas tloustku timeliny
+
+  //timeline.beginPath();
+          
+ // timeline.moveTo(timeline_canvas.width/2, 0 + timelineHeight);
+  //timeline.lineTo(timeline_canvas.width/2, timeline_canvas.height - timelineHeight);
+          
+
+ // timeline.stroke();
+
+//}
 
 function loadJSON(callback) {   
 
