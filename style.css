@@ -52,22 +52,20 @@ canvas {
 #timeline {
   border: 1px solid red;
   position: fixed;
-  width: 1500px;
+  width: 1450px;
   height: 100px;
-  margin-right: 25%;
-  margin-left: auto;
+  margin-left: 2.5%;
 }
 
 #timeline_div {
   display: flex;
   flex-direction: row;
   position: fixed;
-  gap: 20px;
-  margin-left: 15%;
+  gap: 52px;
+  margin-left: 1%;
   margin-top: 3.5%;
 }
 #timeline_div h2 {
-  transform: rotate(-90deg);
   padding-bottom: 50;
   font-family: "Lato", sans-serif;
   font-size: 22px;
@@ -133,7 +131,7 @@ h1:hover {
   margin-top: 3%;
   position: relative;
   overflow-y: scroll;
-  max-height: 600px;
+  max-height: 550px;
 }
 #blok img {
   border: #10d9e7 2px solid;
@@ -149,7 +147,6 @@ h1:hover {
   height: 200px;
   border: 2px solid #10d9e7;
   border-radius: 3px;
-  padding-top: 20px;
 }
 .mainscroll {
   position: absolute;
@@ -161,4 +158,10 @@ img:hover {
 }
 .images:hover {
   transform: scale(1);
+}
+.screen {
+  position: absolute;
+  z-index: 3;
+  opacity: 80%;
+  display: none;
 }

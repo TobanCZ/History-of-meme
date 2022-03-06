@@ -231,6 +231,8 @@ function onMemeClick(meme)
   p.innerHTML = text;
 
   div.style.display = "inline";
+  var screen = document.getElementById("screen");
+  screen.style.display="inline";
 }
 
 function hide()
@@ -251,6 +253,8 @@ function hide()
       blok.removeChild(yt[0]);
     }
   }
+  var screen = document.getElementById("screen");
+  screen.style.display="none";
 }
 
 function scroll(event)
