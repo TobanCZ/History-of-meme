@@ -52,9 +52,8 @@ canvas {
 
 #timeline {
     position: fixed;
-    width: 1500px;
+    width: 1000px;
     height: 100px;
-    margin: auto;
 }
 
 #timeline_div
