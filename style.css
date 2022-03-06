@@ -50,11 +50,10 @@ canvas {
 }
 
 #timeline {
-  border: 1px solid red;
-  position: fixed;
+  position: absolute;
   width: 1450px;
   height: 100px;
-  margin-left: 2.5%;
+  margin-left: 2%;
 }
 
 #timeline_div {
@@ -164,4 +163,9 @@ img:hover {
   z-index: 3;
   opacity: 80%;
   display: none;
+}
+.kunda {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid red;
 }
