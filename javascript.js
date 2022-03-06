@@ -134,8 +134,8 @@ function DrawLines()
 
 function DrawTimeline()
 {
-  timeline.strokeStyle = "#ffffff"; //tady mas barvicku timeliny
-  timeline.lineWidth = 2; //tady mas tloustku timeliny
+  timeline.strokeStyle = "#0cacb8"; //tady mas barvicku timeliny
+  timeline.lineWidth = 4; //tady mas tloustku timeliny
   timeline.beginPath();       
   timeline.moveTo(timelineXoffset, timeline_canvas.height/2);
   timeline.lineTo( timeline_canvas.width - timelineXoffset, timeline_canvas.height/2);
