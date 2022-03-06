@@ -5,10 +5,10 @@ var timeline_canvas = document.getElementById("timeline");
 var timeline = timeline_canvas.getContext("2d");
 
 
-let imgHeight = 70; //tady mas velikost obrayzku
+let imgHeight = 75; //tady mas velikost obrayzku
 
 let xOffset = 250; //jak daleko mezi sebou to bude
-let startXoffset = 100; //jak daleko to bude z leve strany
+let startXoffset = 125; //jak daleko to bude z leve strany
 
 let timelineHeight = 50; //tady nastavis mezeru timeliy od zhora a zdola
 
@@ -100,7 +100,7 @@ function DrawLines()
       
 
       context.strokeStyle = "#005780"; //tady mas barvicku cary
-      context.lineWidth = 1; //tady mas tloustku cary
+      context.lineWidth = 1.5; //tady mas tloustku cary
 
       if(imgArray[x+1] != null)
       {

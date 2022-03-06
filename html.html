@@ -8,12 +8,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="paralax.js"></script>
     <title>Memes</title>
 </head>
 <body onload="load()">
 
-    
+   
     <div id="continer"></div>
     <canvas id="canvas" width="5000" height="1000"></canvas>
     <div id="particles-js"></div>
@@ -26,17 +25,19 @@
     </script>
     <script src="javascript.js"></script>
     
-        <div class="paralax" id="info">
-            <!--<svg width="400" height="110" id="background">
-                <rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)"></rect>  -->  <!-- modrej obdelnik (puvodne jsem to chtel jako pozadi) 
-            </svg>-->
-            <div id="blok">
-            <button class="button" type="button" onclick="hide()">&#10006;</b></button> <!-- Krizek na zavreni informaci -->
-            <h1 id="title"></h1> <!-- Nazev -->
-        
-            <p id="text"></p> <!-- Text -->
-                              <!-- <img class="images"></img> == meme-->
-                                 <!-- <iframe class="yt"></iframe> == yt video-->
+        <div class="mainscroll">
+            <div id="info">
+                <!--<svg width="400" height="110" id="background">
+                    <rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)"></rect>  -->  <!-- modrej obdelnik (puvodne jsem to chtel jako pozadi) 
+                </svg>-->
+                <div id="blok">
+                <button class="button" type="button" onclick="hide()">&#10006;</b></button> <!-- Krizek na zavreni informaci -->
+                <h1 id="title"></h1> <!-- Nazev -->
+            
+                <p id="text"></p> <!-- Text -->
+                                <!-- <img class="images"></img> == meme-->
+                                    <!-- <iframe class="yt"></iframe> == yt video-->
+                </div>
             </div>
         </div>
 </body>
