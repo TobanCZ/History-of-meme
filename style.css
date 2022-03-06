@@ -55,7 +55,16 @@ canvas {
     width: 1500px;
     height: 100px;
     margin: auto;
-    z-index:4;
+}
+
+#timeline_div
+{
+    position: absolute;
+}
+
+h2
+{
+    color: wheat;
 }
 
 h1, p

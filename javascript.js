@@ -135,15 +135,26 @@ function DrawLines()
 function DrawTimeline()
 {
   timeline.strokeStyle = "#ffffff"; //tady mas barvicku timeliny
-  timeline.lineWidth = 1; //tady mas tloustku timeliny
-
-  timeline.beginPath();
-          
+  timeline.lineWidth = 2; //tady mas tloustku timeliny
+  timeline.beginPath();       
   timeline.moveTo(timelineXoffset, timeline_canvas.height/2);
   timeline.lineTo( timeline_canvas.width - timelineXoffset, timeline_canvas.height/2);
-
   timeline.stroke();
 
+  var timeline_div = document.getElementById("timeline_div");
+
+  for(let i = 0; i < yearArray.length; i++)
+  {
+    var year_div = document.createElement("div");
+    year_div.id = "year_div";
+
+    var h2 = document.createElement("h2");
+    h2.innerHTML = yearArray[i];
+
+    year_div.append(h2);
+    timeline_div.append(year_div);
+  }
+  
 }
 
 function loadJSON(callback) {   
