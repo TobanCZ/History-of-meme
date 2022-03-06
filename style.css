@@ -2,6 +2,7 @@ body {
     margin: auto;
     padding: 0;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 canvas {
     position: absolute;
@@ -107,7 +108,7 @@ h1:hover {
     margin-top: 3%;
     position: relative;
     overflow-y: scroll;
-    max-height: 525px;
+    max-height: 600px;
 }
 #blok img {
     border:#10d9e7 2px solid;

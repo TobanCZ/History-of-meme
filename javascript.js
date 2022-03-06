@@ -235,3 +235,17 @@ function hide()
   }
 }
 
+function scroll(event)
+{
+  if(event == null)
+  {
+    return;
+  }
+
+  data = event.deltaY;
+   console.log(data);
+  window.scrollBy(data,0);
+}
+
+  document.addEventListener('wheel',scroll());
+  window.onwheel = scroll;
