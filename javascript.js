@@ -197,7 +197,7 @@ function onMemeClick(meme)
       for(let x = 0; x < temp; x++)
     {
       console.log(x)
-      div.removeChild(yt[0]);
+      blok.removeChild(yt[0]);
     }
   }
 
@@ -206,7 +206,7 @@ function onMemeClick(meme)
     var iframe = document.createElement("iframe")
     iframe.src = data.info[meme].memes.yt.replace("watch?v=","embed/");
     iframe.className = "yt";
-    div.appendChild(iframe);
+    blok.appendChild(iframe);
   }
   
 
