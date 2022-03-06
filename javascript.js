@@ -10,7 +10,6 @@ let imgHeight = 75; //tady mas velikost obrayzku
 let xOffset = 250; //jak daleko mezi sebou to bude
 let startXoffset = 130; //jak daleko to bude z leve strany
 
-let timelineXoffset = 50; //tady nastavis mezeru timeliy z leva a z prava
 
 var data;
 
