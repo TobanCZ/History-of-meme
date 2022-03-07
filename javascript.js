@@ -12,7 +12,7 @@ let imgHeight = 75; //tady mas velikost obrayzku
 let xOffset = 250; //jak daleko mezi sebou to bude
 let startXoffset = 130; //jak daleko to bude z leve strany
 
-let timelineXoffset = 30;
+let timelineXoffset = 80;
 let timelineHeight = 30;
 
 var data;
@@ -110,7 +110,7 @@ function DrawLines()
 
       
 
-      context.strokeStyle = "#0cacb8"; //tady mas barvicku cary
+      context.strokeStyle = "#ffffff"; //tady mas barvicku cary
       context.lineWidth = 1.5; //tady mas tloustku cary
 
       if(imgArray[x+1] != null)
@@ -138,8 +138,8 @@ function DrawLines()
 
 function DrawTimeline()
 {
-  timeline.strokeStyle = "#0cacb8"; //tady mas barvicku timeliny
-  timeline.lineWidth = 2; //tady mas tloustku timeliny
+  timeline.strokeStyle = "#ffffff"; //tady mas barvicku timeliny
+  timeline.lineWidth = 1; //tady mas tloustku timeliny
   timeline.beginPath();       
   timeline.moveTo(timelineXoffset, timelineHeight);
   timeline.lineTo(document.body.offsetWidth - timelineXoffset, timelineHeight);
