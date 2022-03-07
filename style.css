@@ -60,19 +60,15 @@ canvas {
   display: flex;
   flex-direction: row;
   position: fixed;
-  gap: 54px;
+  gap: 56px;
   margin-top: 2%;
 }
 #timeline_div h2 {
   padding-bottom: 50;
   font-family: "Lato", sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 100;
   color: #ffffff;
-}
-
-h2 {
-  color: wheat;
 }
 
 h1,
