@@ -4,13 +4,16 @@ context = canvas.getContext("2d");
 var timeline_canvas = document.getElementById("timeline");
 var timeline = timeline_canvas.getContext("2d");
 
+var dot = document.getElementById("dot");
+
 
 let imgHeight = 75; //tady mas velikost obrayzku
 
 let xOffset = 250; //jak daleko mezi sebou to bude
 let startXoffset = 130; //jak daleko to bude z leve strany
 
-let timelineXoffset = 10;
+let timelineXoffset = 30;
+let timelineHeight = 30;
 
 var data;
 
@@ -43,6 +46,7 @@ function SetCanvas()
   canvas.width = profivypocetwidth;
   var particles = document.getElementsByClassName("particles-js-canvas-el");
   particles[0].style.width = profivypocetwidth + "px";
+  timeline_canvas.width = document.body.offsetWidth;
 }
 
 function CreateImageArray()
@@ -135,10 +139,10 @@ function DrawLines()
 function DrawTimeline()
 {
   timeline.strokeStyle = "#0cacb8"; //tady mas barvicku timeliny
-  timeline.lineWidth = 4; //tady mas tloustku timeliny
+  timeline.lineWidth = 2; //tady mas tloustku timeliny
   timeline.beginPath();       
-  timeline.moveTo(timelineXoffset, timeline_canvas.height/2);
-  timeline.lineTo( timeline_canvas.width - timelineXoffset, timeline_canvas.height/2);
+  timeline.moveTo(timelineXoffset, timelineHeight);
+  timeline.lineTo(document.body.offsetWidth - timelineXoffset, timelineHeight);
   timeline.stroke();
 
   var timeline_div = document.getElementById("timeline_div");
@@ -155,6 +159,26 @@ function DrawTimeline()
     timeline_div.append(year_div);
   }
   
+
+
+  
+  dot.style.top = timelineHeight - dot.offsetHeight /2 + "px";
+  dot.style.left = timelineXoffset - dot.offsetWidth/2 + "px";
+
+}
+
+function dotUpdate()
+{
+  let maxscroll = document.documentElement.scrollWidth - document.documentElement.clientWidth;;
+  let width_timeline = document.body.offsetWidth - 2*timelineXoffset
+
+  var value = map_range(window.scrollX, 0,maxscroll,0,width_timeline)
+
+  dot.style.left = value - dot.offsetWidth/2 + timelineXoffset + "px";;
+}
+
+function map_range(value, low1, high1, low2, high2) {
+  return low2 + (high2 - low2) * (value - low1) / (high1 - low1);
 }
 
 function loadJSON(callback) {   
@@ -263,6 +287,7 @@ function scroll(event)
   if(event != null && showinfo == false)
   {
     window.scrollBy(event.deltaY*0.5,0);
+    dotUpdate();
   }
 }
 
