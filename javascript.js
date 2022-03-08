@@ -15,6 +15,8 @@ let startXoffset = 130; //jak daleko to bude z leve strany
 let timelineXoffset = 80;
 let timelineHeight = 30;
 
+let smoothscroll = 0.1;
+
 var data;
 
 let showinfo = false;
@@ -169,7 +171,7 @@ function DrawTimeline()
 
 function dotUpdate()
 {
-  let maxscroll = document.documentElement.scrollWidth - document.documentElement.clientWidth;;
+  let maxscroll = document.documentElement.scrollWidth - document.documentElement.clientWidth;
   let width_timeline = document.body.offsetWidth - 2*timelineXoffset
 
   var value = map_range(window.scrollX, 0,maxscroll,0,width_timeline)
@@ -282,14 +284,43 @@ function hide()
   screen.style.display="none";
 }
 
-function scroll(event)
+async function scroll(event)
 {
   if(event != null && showinfo == false)
   {
-    window.scrollBy(event.deltaY*0.5,0);
-    dotUpdate();
+    y = event.deltaY / 2+ window.scrollX;
+    x = window.scrollX;
+    temp = Math.abs(y - x);
+
+    while(temp > 10)
+    {
+      if(window.scrollX != document.documentElement.scrollWidth - document.documentElement.clientWidth && x < y)
+      {
+        window.scrollBy(15, 0);
+      }
+      else if(window.scrollX != 0 && x > y)
+      {
+        window.scrollBy(-15, 0);
+      }
+      else
+      {
+        break;
+      }
+
+      
+      x = window.scrollX;
+      temp = Math.abs(y - x);
+      dotUpdate();
+      await sleep(5);
+
+    }
+    
   }
 }
 
   document.addEventListener('wheel',scroll());
   window.onwheel = scroll;
+
+  function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
