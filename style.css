@@ -84,24 +84,10 @@ p {
   float: right;
 }
 .button:hover {
-  background-color: rgb(206, 206, 206);
-  transition: 0.5s;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  background-color: rgb(197, 197, 197);
+  transition: 0.2s;
 }
 
-@keyframes glow 
-{
-  from {
-    text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #cfcfcf,
-      0 0 50px #cfcfcf, 0 0 60px #cfcfcf, 0 0 70px #cfcfcf 0 0 80px #cfcfcf;
-  }
-  to {
-    text-shadow: 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff,
-      0 0 60px #cfcfcf, 0 0 70px #cfcfcf, 0 0 80px #cfcfcf, 0 0 90px #cfcfcf;
-  }
-}
 
 h1 {
   font-family: "Lato", sans-serif;
