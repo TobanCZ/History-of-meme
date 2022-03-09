@@ -60,7 +60,7 @@ canvas {
   display: flex;
   flex-direction: row;
   position: fixed;
-  gap: 52px;
+  gap: 48px;
   margin-top: 2%;
 }
 #timeline_div h2 {
